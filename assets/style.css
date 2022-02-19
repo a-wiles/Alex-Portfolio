@@ -1,0 +1,105 @@
+/*   Universal CSS   */
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+  }
+
+:root {
+    --primary-color: #D5D5CC;
+    --secondary-color: #AFB7A0;
+    --tertiary-color: #969d7d;
+    --quaternary-color: #6E755A;
+    --quinary-color: #bd815d;
+}
+
+/*    Header CSS    */
+header {
+    background-color: var(--secondary-color);
+    position: sticky;
+    padding: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+/*Nav CSS*/
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 10px 20px; 
+    font-weight: heavy;
+    font-size:xx-large;
+    color: var(--secondary-color);
+}
+
+nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    color: var(--quaternary-color);
+}
+
+nav ul li a:hover{
+    font-style:italic ;
+    color: var(--secondary-color);
+    background-color: var(--quaternary-color);
+    border-radius: 25px;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Body */
+
+body {
+    background-color: var(--primary-color);
+}
+
+.meadow {
+    background-image: url("../assets/background\ image.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: flex-start;
+    background-position: 80%;
+}
+
+.profileimage {
+    padding: 50px;
+    margin: auto;
+    border-radius:50px;
+    background-image: url("../assets/profilepicture.jpg");
+}
+
+.contentboxes {
+    border-style:solid;
+    border-color: var(--secondary-color);
+    border-width:thick;
+}
+
+.contentboxes h2 {
+    color: var(--quaternary-color);
+    font-weight:bolder;
+    font-size:xx-large;
+    margin:auto;
+    padding: 50px;
+    background-color: var(--secondary-color);
+    width:min-content;
+    float: left;
+    text-shadow: 0 0 15px rgba(148, 99, 68, 0.5);
+
+}
+
+.float {
+    float: right;
+}
