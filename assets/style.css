@@ -64,24 +64,24 @@ body {
 
 .meadow {
     background-image: url("../assets/background\ image.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     background-attachment: fixed;
     justify-content: center;
     align-items: flex-start;
     background-position: 80%;
-    position: relative;
     height: auto;
     width: auto;
 }
 
 .profileimage {
-    padding: 50px;
+    padding: 150px;
     margin: auto;
-    position: absolute;
-    top: 25px;
+    position: relative;
+    top: 40px;
     right: 95px; 
 }
 
@@ -91,36 +91,67 @@ body {
     right: 300px;
     bottom: 200px;
 }
+
 .meadow h1{
     position: absolute;
-    top: 350px;
+    top: 400px;
 }
 
 .meadow h2{ 
     position: absolute;
-    top: 400px;
+    top: 450px;
 }
 
 .contentboxes {
     border-style:solid;
     border-color: var(--secondary-color);
     border-width:thick;
-    border-radius: 0 0 20px 0;
+    border-radius: 0 0 25px 0;
+    /*display: flex;*/
+    padding: 20px;
+    flex-wrap: wrap;
 }
 
 .contentboxes h2 {
     color: var(--quaternary-color);
     font-weight:bolder;
     font-size:xx-large;
-    margin:auto;
+    margin-left: -10px;
     padding: 50px;
     background-color: var(--secondary-color);
     width:min-content;
-    float: left;
+    /*float: left;*/
     text-shadow: 0 0 15px rgba(148, 99, 68, 0.5);
-
+    position: relative;
+    border-radius: 0 0 25px 0;
 }
 
-.float {
-    float: right;
+article {
+    padding: 20px;
+    margin: 20px;
+}
+
+.projectsample {
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+.smallersamples {
+    width: 35%;
+    padding: 20px;
+    margin: 0 auto;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+img {
+    height: auto;
+    width: 70%;
 }
