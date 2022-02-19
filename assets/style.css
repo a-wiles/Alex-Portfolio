@@ -72,19 +72,36 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-position: 80%;
+    position: relative;
+    height: auto;
+    width: auto;
+}
+
+.meadow h1{
+    position: absolute;
+}
+
+.meadow h2{ 
+    position: absolute;
 }
 
 .profileimage {
     padding: 50px;
     margin: auto;
-    border-radius:50px;
-    background-image: url("../assets/profilepicture.jpg");
+    position: absolute;
+}
+
+.profileimage img {
+    width: 30%;
+    border-radius: 360px;
+    right: 300px;
 }
 
 .contentboxes {
     border-style:solid;
     border-color: var(--secondary-color);
     border-width:thick;
+    border-radius: 0 0 20px 0;
 }
 
 .contentboxes h2 {
