@@ -78,11 +78,11 @@ body {
 }
 
 .profileimage {
-    padding: 150px;
-    margin: auto;
+    padding: 120px;
+    margin-left: 775px;
     position: relative;
-    top: 40px;
     right: 95px; 
+    position: center;
 }
 
 .profileimage img {
@@ -94,12 +94,25 @@ body {
 
 .meadow h1{
     position: absolute;
-    top: 400px;
+    font-weight: bolder;
+    font-size:xx-large;
+    padding: 10px;
+    top: 500px;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    color: var(--quaternary-color);
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
-.meadow h2{ 
+.meadow h3{ 
     position: absolute;
-    top: 450px;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--tertiary-color);
+    top: 550px;
+    color: var(--quinary-color);
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
 .contentboxes {
@@ -149,6 +162,7 @@ article {
     flex-wrap: wrap;
     justify-content: space-around;
     position: relative;
+    display: inline;
 }
 
 img {
