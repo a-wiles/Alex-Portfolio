@@ -155,7 +155,6 @@ body {
     padding: 150px;
     margin: 150px;
     position: absolute;
-
 }
 
 article {
@@ -171,6 +170,15 @@ article {
     flex-wrap: wrap;
     justify-content: space-around;
     position: relative;
+}
+
+.projectsampletitle  {
+    color: var(--quaternary-color);
+    background-color: var(--secondary-color);
+    padding: 10px;
+    margin: ;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
 }
 
 .smallersamples {
@@ -190,6 +198,7 @@ img {
     padding: -10px;
     width: 90%;
 }
+
 /*Main Content End*/
 
 /*Footer*/
