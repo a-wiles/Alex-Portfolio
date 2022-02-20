@@ -17,13 +17,19 @@ Full Sized
 
 ![image](https://user-images.githubusercontent.com/98373402/154829801-160a9215-f3c4-4c00-89c4-f9bca86956c0.png)
 
+
+
 980px
 
 ![image](https://user-images.githubusercontent.com/98373402/154829933-054c2db1-4c4a-4afb-b131-3cc564f16683.png)
 
+
+
 768px
 
 ![image](https://user-images.githubusercontent.com/98373402/154829867-3d8251b6-119c-4c00-972f-9ce7c0943ed4.png)
+
+
 
 575px
 
