@@ -41,6 +41,7 @@ https://a-wiles.github.io/Alex-Portfolio/
 
 ## Acknowledgements
 Woodland Grasses by Andrew Small @ https://unsplash.com/@andsmall
+
 Image Placeholder @ https://www.iconfinder.com/icons/3273769/empty_image_picture_placeholder_icon
 
 ### ©️2022 Alexandra Wiles
