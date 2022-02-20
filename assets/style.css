@@ -296,20 +296,6 @@ footer ul li a:hover{
         margin-left: -10px;
         padding: 30px;
         background-color: var(--secondary-color);
-        width:min-content;
-        /*float: left;*/
-        text-shadow: 0 0 15px rgba(148, 99, 68, 0.5);
-        position: relative;
-        border-radius: 0 0 25px 0;
-    }
-
-    footer h2 {
-        color: var(--secondary-color);
-        font-weight:bolder;
-        font-size: medium;
-        margin-left: 5px;
-        padding: 20px;
-        background-color: var(--quaternary-color);
         width: 225px;
         /*float: left;*/
         text-shadow: 0 0 15px rgba(148, 99, 68, 0.5);
@@ -331,17 +317,15 @@ footer ul li a:hover{
         margin: 0 auto;
         display: grid;
         flex-wrap: wrap;
-
         position: relative;
     }
 
     .smallersamples {
         width: 40%;
-        padding: -10px;
-        margin: -10px;
+        padding: 20px;
         display: flex;
         flex-wrap: wrap;
-
+        margin-left: 320px;
         position: relative;
         display: inline;
     }
@@ -355,12 +339,93 @@ footer ul li a:hover{
         bottom: 0px;
     }
 
+    footer h2 {
+        font-size: medium;
+        margin-left: 5px;
+        padding: 20px;
+        width: 225px;
+        position: relative;
+    }
+
 /*Media Query - Tablets or Smaller*/
 @media screen and (max-width: 768px) {
   
+    .profileimage {
+        padding: 20px;
+        margin-left: 400px;
+    }
 
+    .profileimage img {
+        width: 50%;
+        border-radius: 360px;
+        right: 300px;
+        bottom: 300px;
+    }
 
+    .meadow h1{
+        top: 200px;
+        margin-left: 35px;
+    }
+
+    .contentboxes h2 {
+        width: 180px;
+    }
+
+    .smallersamples {
+        padding: 20px;
+        margin-left: 280px;
+    }
+
+    footer h2 {
+        width: 180px;
+    }
 
 /*Media Query - Mobile or Smaller*/
 @media screen and (max-width: 575px) {
   
+    .profileimage {
+        margin-left: 320px;
+    }
+
+    .profileimage img {
+        width: 60%;
+    }
+
+    .meadow h1{
+        top: 170px;
+    }
+
+    .contentboxes h2 {
+        width: 100px;
+        padding: 8px;
+    }
+
+    .smallersamples {
+        padding: 30px;
+        margin-left: 300px;
+    }
+
+    footer h2 {
+        width: 100px;
+        padding: 3px;
+    }
+
+    footer ul li {
+        padding: 5px 4px; 
+        font-weight: heavy;
+        font-size:large;
+    }
+
+    footer ul li a {
+        padding: 10px 15px;
+        font-weight: bold;
+        font-size: 2.00vw;
+    }
+
+    .projectsample {
+        margin-left: 0;
+    }
+
+    .smallersamples {
+        margin-left: 0;
+    }
